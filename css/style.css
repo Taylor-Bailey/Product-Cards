@@ -1,0 +1,62 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap row;
+}
+
+.card {
+    width: 30%;
+    border: 1px lightblue solid;
+    display: inline-block;
+}
+
+.card header h2 {
+    text-align: center;
+    border: 1px lightgrey dotted;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    max-width: 75%;
+    max-height: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 1em;
+    transition: all .9s ease-out;
+}
+
+img:hover {
+    transition: all .2s ease-in;
+    transform: scale(1.05);
+}
+
+img:active {
+    transition: all .1s ease-in;
+    transform: scale(1);
+}
+
+.main p:nth-of-type(1n) {
+    text-align: justify;
+    margin: 1em
+}
+.main p:nth-of-type(2n) {
+    background-color: grey;
+    color: yellow;
+    margin: 0;
+    padding: .25em;
+}
+
+h4 {
+    font-weight: bold;
+    margin: .25em;
+}
+
+h5 {
+    font-weight: normal;
+    margin: .25em;
+}
+
+.specs p, .price p {
+    margin: .25em;
+}
